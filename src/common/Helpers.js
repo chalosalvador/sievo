@@ -28,36 +28,29 @@ const checkStatus = ( response ) => {
 };
 
 /**
- * Receives an array of objects and returns the respective columns ready to render the table
- * @param array
+ * Receives an array of fields and returns the respective columns ready to render the table
+ * @param fields
  * @param customParameters
  * @returns {Array}
  */
-const getColumns = ( array, customParameters = {} ) => {
+const getTableColumnsFromFields = ( fields, customParameters = {} ) => {
 
-  let columns = [];
-
-  if( array && array.length > 0 ) {
-
-    const fields = Object.keys( array[ 0 ] );
-
-    columns = fields.map( ( field ) => {
-      const { customRender, ...customFieldParameters } = customParameters[ field ] || {};
-      return {
-        title: field.toUpperCase(),
-        dataIndex: field,
-        key: field,
-        render: ( value ) => {
-          value = checkNull( value );
-          if( customRender ) {
-            value = customRender( value );
-          }
-          return value;
-        },
-        ...customFieldParameters
-      };
-    } );
-  }
+  let columns = fields.map( ( field ) => {
+    const { customRender, ...customFieldParameters } = customParameters[ field ] || {};
+    return {
+      title: field.toUpperCase(),
+      dataIndex: field,
+      key: field,
+      render: ( value ) => {
+        value = checkNull( value );
+        if( customRender ) {
+          value = customRender( value );
+        }
+        return value;
+      },
+      ...customFieldParameters
+    };
+  } );
 
   return columns;
 };
@@ -77,7 +70,7 @@ const filterRows = ( rows, field, searchText ) => rows.filter( ( row ) => {
 
 const Helpers = {
   checkStatus,
-  getColumns,
+  getTableColumnsFromFields,
   filterRows
 };
 export default Helpers;

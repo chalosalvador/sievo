@@ -26,14 +26,15 @@ exports[`App renders without crashing 1`] = `
           className="ant-col"
         >
           <span
-            className="ant-input-search ant-input-affix-wrapper"
+            className="ant-input-search ant-input-affix-wrapper ant-input-affix-wrapper-lg"
           >
             <input
-              className="ant-input"
+              className="ant-input ant-input-lg"
               disabled={false}
               onChange={[Function]}
               onKeyDown={[Function]}
               placeholder="Enter Description"
+              size="large"
               style={null}
               type="text"
               value=""

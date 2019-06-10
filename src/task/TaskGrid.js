@@ -15,7 +15,7 @@ class TaskGrid extends React.Component {
   state = {
     loading: true,
     filteredTasks: [],
-    tasks: []
+    allTasks: []
   };
 
 
@@ -46,7 +46,8 @@ class TaskGrid extends React.Component {
   render() {
     let uniqueKey = 0;
     const { filteredTasks, allTasks } = this.state;
-    const columns = Helpers.getColumns( allTasks, {
+    const fields = Object.keys( allTasks[ 0 ] || {} );
+    const columns = Helpers.getTableColumnsFromFields( fields, {
       'project': {
         width: 100,
         sorter: ( a, b ) => a.project - b.project
@@ -74,6 +75,7 @@ class TaskGrid extends React.Component {
             placeholder='Enter Description'
             onSearch={ this.handleSearch }
             onChange={ this.handleChange }
+            size='large'
           />
         </Col>
       </Row>

@@ -1,0 +1,982 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskGrid TaskGrid renders data correctly 1`] = `
+<div
+  className="task-grid"
+>
+  <div
+    className="ant-row-flex ant-row-flex-end task-grid__search"
+  >
+    <div
+      className="ant-col"
+    >
+      <span
+        className="ant-input-search ant-input-affix-wrapper"
+      >
+        <input
+          className="ant-input"
+          disabled={false}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Enter Description"
+          style={null}
+          type="text"
+          value=""
+        />
+        <span
+          className="ant-input-suffix"
+        >
+          <i
+            aria-label="icon: search"
+            className="anticon anticon-search ant-input-search-icon"
+            onClick={[Function]}
+            tabIndex={-1}
+          >
+            <svg
+              aria-hidden="true"
+              className=""
+              data-icon="search"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+              />
+            </svg>
+          </i>
+        </span>
+      </span>
+    </div>
+  </div>
+  <div
+    className="ant-row-flex ant-row-flex-center task-grid__grid"
+  >
+    <div
+      className="ant-col ant-col-24"
+    >
+      <div
+        className="ant-table-wrapper"
+      >
+        <div
+          className="ant-spin-nested-loading"
+        >
+          <div
+            className="ant-spin-container"
+          >
+            <div
+              className="ant-table ant-table-default ant-table-scroll-position-left"
+              style={Object {}}
+            >
+              <div
+                className="ant-table-title"
+              >
+                TASKS
+              </div>
+              <div
+                className="ant-table-content"
+              >
+                <div
+                  className="ant-table-scroll"
+                >
+                  <div
+                    className="ant-table-body"
+                    onScroll={[Function]}
+                    onWheel={[Function]}
+                    style={
+                      Object {
+                        "WebkitTransform": "translate3d (0, 0, 0)",
+                        "overflowX": "scroll",
+                      }
+                    }
+                  >
+                    <table
+                      className="ant-table-fixed"
+                      style={
+                        Object {
+                          "width": 800,
+                        }
+                      }
+                    >
+                      <colgroup>
+                        <col
+                          style={
+                            Object {
+                              "minWidth": 100,
+                              "width": 100,
+                            }
+                          }
+                        />
+                        <col
+                          style={
+                            Object {
+                              "minWidth": undefined,
+                              "width": undefined,
+                            }
+                          }
+                        />
+                        <col
+                          style={
+                            Object {
+                              "minWidth": undefined,
+                              "width": undefined,
+                            }
+                          }
+                        />
+                        <col
+                          style={
+                            Object {
+                              "minWidth": undefined,
+                              "width": undefined,
+                            }
+                          }
+                        />
+                        <col
+                          style={
+                            Object {
+                              "minWidth": undefined,
+                              "width": undefined,
+                            }
+                          }
+                        />
+                        <col
+                          style={
+                            Object {
+                              "minWidth": undefined,
+                              "width": undefined,
+                            }
+                          }
+                        />
+                        <col
+                          style={
+                            Object {
+                              "minWidth": undefined,
+                              "width": undefined,
+                            }
+                          }
+                        />
+                        <col
+                          style={
+                            Object {
+                              "minWidth": undefined,
+                              "width": undefined,
+                            }
+                          }
+                        />
+                      </colgroup>
+                      <thead
+                        className="ant-table-thead"
+                      >
+                        <tr
+                          style={
+                            Object {
+                              "height": null,
+                            }
+                          }
+                        >
+                          <th
+                            className="ant-table-column-has-actions ant-table-column-has-sorters"
+                            onClick={[Function]}
+                          >
+                            <span
+                              className="ant-table-header-column"
+                            >
+                              <div
+                                className="ant-table-column-sorters"
+                              >
+                                <span
+                                  className="ant-table-column-title"
+                                >
+                                  PROJECT
+                                </span>
+                                <span
+                                  className="ant-table-column-sorter"
+                                >
+                                  <div
+                                    className="ant-table-column-sorter-inner ant-table-column-sorter-inner-full"
+                                    title="Sort"
+                                  >
+                                    <i
+                                      aria-label="icon: caret-up"
+                                      className="anticon anticon-caret-up ant-table-column-sorter-up off"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        className=""
+                                        data-icon="caret-up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="0 0 1024 1024"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M858.9 689L530.5 308.2c-9.4-10.9-27.5-10.9-37 0L165.1 689c-12.2 14.2-1.2 35 18.5 35h656.8c19.7 0 30.7-20.8 18.5-35z"
+                                        />
+                                      </svg>
+                                    </i>
+                                    <i
+                                      aria-label="icon: caret-down"
+                                      className="anticon anticon-caret-down ant-table-column-sorter-down off"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        className=""
+                                        data-icon="caret-down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="0 0 1024 1024"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M840.4 300H183.6c-19.7 0-30.7 20.8-18.5 35l328.4 380.8c9.4 10.9 27.5 10.9 37 0L858.9 335c12.2-14.2 1.2-35-18.5-35z"
+                                        />
+                                      </svg>
+                                    </i>
+                                  </div>
+                                </span>
+                              </div>
+                            </span>
+                          </th>
+                          <th
+                            className=""
+                          >
+                            <span
+                              className="ant-table-header-column"
+                            >
+                              <div>
+                                <span
+                                  className="ant-table-column-title"
+                                >
+                                  DESCRIPTION
+                                </span>
+                                <span
+                                  className="ant-table-column-sorter"
+                                />
+                              </div>
+                            </span>
+                          </th>
+                          <th
+                            className=""
+                          >
+                            <span
+                              className="ant-table-header-column"
+                            >
+                              <div>
+                                <span
+                                  className="ant-table-column-title"
+                                >
+                                  START DATE
+                                </span>
+                                <span
+                                  className="ant-table-column-sorter"
+                                />
+                              </div>
+                            </span>
+                          </th>
+                          <th
+                            className=""
+                          >
+                            <span
+                              className="ant-table-header-column"
+                            >
+                              <div>
+                                <span
+                                  className="ant-table-column-title"
+                                >
+                                  CATEGORY
+                                </span>
+                                <span
+                                  className="ant-table-column-sorter"
+                                />
+                              </div>
+                            </span>
+                          </th>
+                          <th
+                            className=""
+                          >
+                            <span
+                              className="ant-table-header-column"
+                            >
+                              <div>
+                                <span
+                                  className="ant-table-column-title"
+                                >
+                                  RESPONSIBLE
+                                </span>
+                                <span
+                                  className="ant-table-column-sorter"
+                                />
+                              </div>
+                            </span>
+                          </th>
+                          <th
+                            className=""
+                          >
+                            <span
+                              className="ant-table-header-column"
+                            >
+                              <div>
+                                <span
+                                  className="ant-table-column-title"
+                                >
+                                  SAVINGS AMOUNT
+                                </span>
+                                <span
+                                  className="ant-table-column-sorter"
+                                />
+                              </div>
+                            </span>
+                          </th>
+                          <th
+                            className=""
+                          >
+                            <span
+                              className="ant-table-header-column"
+                            >
+                              <div>
+                                <span
+                                  className="ant-table-column-title"
+                                >
+                                  CURRENCY
+                                </span>
+                                <span
+                                  className="ant-table-column-sorter"
+                                />
+                              </div>
+                            </span>
+                          </th>
+                          <th
+                            className=""
+                          >
+                            <span
+                              className="ant-table-header-column"
+                            >
+                              <div>
+                                <span
+                                  className="ant-table-column-title"
+                                >
+                                  COMPLEXITY
+                                </span>
+                                <span
+                                  className="ant-table-column-sorter"
+                                />
+                              </div>
+                            </span>
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody
+                        className="ant-table-tbody"
+                      >
+                        <tr
+                          className="ant-table-row ant-table-row-level-0"
+                          data-row-key={1}
+                          onClick={[Function]}
+                          onContextMenu={[Function]}
+                          onDoubleClick={[Function]}
+                          onMouseEnter={[Function]}
+                          onMouseLeave={[Function]}
+                          style={
+                            Object {
+                              "height": null,
+                            }
+                          }
+                        >
+                          <td
+                            className="ant-table-column-has-actions ant-table-column-has-sorters"
+                            onClick={[Function]}
+                          >
+                            <span
+                              className="ant-table-row-indent indent-level-0"
+                              style={
+                                Object {
+                                  "paddingLeft": "0px",
+                                }
+                              }
+                            />
+                            2
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            Substitute Crème fraîche with evaporated milk in ice-cream products
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            27.12.2013
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            Office supplies
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            Clark Kent
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            3722.42
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          />
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            Moderate
+                          </td>
+                        </tr>
+                        <tr
+                          className="ant-table-row ant-table-row-level-0"
+                          data-row-key={2}
+                          onClick={[Function]}
+                          onContextMenu={[Function]}
+                          onDoubleClick={[Function]}
+                          onMouseEnter={[Function]}
+                          onMouseLeave={[Function]}
+                          style={
+                            Object {
+                              "height": null,
+                            }
+                          }
+                        >
+                          <td
+                            className="ant-table-column-has-actions ant-table-column-has-sorters"
+                            onClick={[Function]}
+                          >
+                            <span
+                              className="ant-table-row-indent indent-level-0"
+                              style={
+                                Object {
+                                  "paddingLeft": "0px",
+                                }
+                              }
+                            />
+                            1
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            Decrease production related non-categorized side costs
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            13.06.2013
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            Dairy
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            Daisy Milks
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            5583.63
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            USD
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            Hazardous
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TaskGrid TaskGrid searches correctly 1`] = `
+<div
+  className="task-grid"
+>
+  <div
+    className="ant-row-flex ant-row-flex-end task-grid__search"
+  >
+    <div
+      className="ant-col"
+    >
+      <span
+        className="ant-input-search ant-input-affix-wrapper"
+      >
+        <input
+          className="ant-input"
+          disabled={false}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Enter Description"
+          style={null}
+          type="text"
+          value=""
+        />
+        <span
+          className="ant-input-suffix"
+        >
+          <i
+            aria-label="icon: search"
+            className="anticon anticon-search ant-input-search-icon"
+            onClick={[Function]}
+            tabIndex={-1}
+          >
+            <svg
+              aria-hidden="true"
+              className=""
+              data-icon="search"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+              />
+            </svg>
+          </i>
+        </span>
+      </span>
+    </div>
+  </div>
+  <div
+    className="ant-row-flex ant-row-flex-center task-grid__grid"
+  >
+    <div
+      className="ant-col ant-col-24"
+    >
+      <div
+        className="ant-table-wrapper"
+      >
+        <div
+          className="ant-spin-nested-loading"
+        >
+          <div
+            className="ant-spin-container"
+          >
+            <div
+              className="ant-table ant-table-default ant-table-scroll-position-left"
+              style={Object {}}
+            >
+              <div
+                className="ant-table-title"
+              >
+                TASKS
+              </div>
+              <div
+                className="ant-table-content"
+              >
+                <div
+                  className="ant-table-scroll"
+                >
+                  <div
+                    className="ant-table-body"
+                    onScroll={[Function]}
+                    onWheel={[Function]}
+                    style={
+                      Object {
+                        "WebkitTransform": "translate3d (0, 0, 0)",
+                        "overflowX": "scroll",
+                      }
+                    }
+                  >
+                    <table
+                      className="ant-table-fixed"
+                      style={
+                        Object {
+                          "width": 800,
+                        }
+                      }
+                    >
+                      <colgroup>
+                        <col
+                          style={
+                            Object {
+                              "minWidth": 100,
+                              "width": 100,
+                            }
+                          }
+                        />
+                        <col
+                          style={
+                            Object {
+                              "minWidth": undefined,
+                              "width": undefined,
+                            }
+                          }
+                        />
+                        <col
+                          style={
+                            Object {
+                              "minWidth": undefined,
+                              "width": undefined,
+                            }
+                          }
+                        />
+                        <col
+                          style={
+                            Object {
+                              "minWidth": undefined,
+                              "width": undefined,
+                            }
+                          }
+                        />
+                        <col
+                          style={
+                            Object {
+                              "minWidth": undefined,
+                              "width": undefined,
+                            }
+                          }
+                        />
+                        <col
+                          style={
+                            Object {
+                              "minWidth": undefined,
+                              "width": undefined,
+                            }
+                          }
+                        />
+                        <col
+                          style={
+                            Object {
+                              "minWidth": undefined,
+                              "width": undefined,
+                            }
+                          }
+                        />
+                        <col
+                          style={
+                            Object {
+                              "minWidth": undefined,
+                              "width": undefined,
+                            }
+                          }
+                        />
+                      </colgroup>
+                      <thead
+                        className="ant-table-thead"
+                      >
+                        <tr
+                          style={
+                            Object {
+                              "height": null,
+                            }
+                          }
+                        >
+                          <th
+                            className="ant-table-column-has-actions ant-table-column-has-sorters"
+                            onClick={[Function]}
+                          >
+                            <span
+                              className="ant-table-header-column"
+                            >
+                              <div
+                                className="ant-table-column-sorters"
+                              >
+                                <span
+                                  className="ant-table-column-title"
+                                >
+                                  PROJECT
+                                </span>
+                                <span
+                                  className="ant-table-column-sorter"
+                                >
+                                  <div
+                                    className="ant-table-column-sorter-inner ant-table-column-sorter-inner-full"
+                                    title="Sort"
+                                  >
+                                    <i
+                                      aria-label="icon: caret-up"
+                                      className="anticon anticon-caret-up ant-table-column-sorter-up off"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        className=""
+                                        data-icon="caret-up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="0 0 1024 1024"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M858.9 689L530.5 308.2c-9.4-10.9-27.5-10.9-37 0L165.1 689c-12.2 14.2-1.2 35 18.5 35h656.8c19.7 0 30.7-20.8 18.5-35z"
+                                        />
+                                      </svg>
+                                    </i>
+                                    <i
+                                      aria-label="icon: caret-down"
+                                      className="anticon anticon-caret-down ant-table-column-sorter-down off"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        className=""
+                                        data-icon="caret-down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="0 0 1024 1024"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M840.4 300H183.6c-19.7 0-30.7 20.8-18.5 35l328.4 380.8c9.4 10.9 27.5 10.9 37 0L858.9 335c12.2-14.2 1.2-35-18.5-35z"
+                                        />
+                                      </svg>
+                                    </i>
+                                  </div>
+                                </span>
+                              </div>
+                            </span>
+                          </th>
+                          <th
+                            className=""
+                          >
+                            <span
+                              className="ant-table-header-column"
+                            >
+                              <div>
+                                <span
+                                  className="ant-table-column-title"
+                                >
+                                  DESCRIPTION
+                                </span>
+                                <span
+                                  className="ant-table-column-sorter"
+                                />
+                              </div>
+                            </span>
+                          </th>
+                          <th
+                            className=""
+                          >
+                            <span
+                              className="ant-table-header-column"
+                            >
+                              <div>
+                                <span
+                                  className="ant-table-column-title"
+                                >
+                                  START DATE
+                                </span>
+                                <span
+                                  className="ant-table-column-sorter"
+                                />
+                              </div>
+                            </span>
+                          </th>
+                          <th
+                            className=""
+                          >
+                            <span
+                              className="ant-table-header-column"
+                            >
+                              <div>
+                                <span
+                                  className="ant-table-column-title"
+                                >
+                                  CATEGORY
+                                </span>
+                                <span
+                                  className="ant-table-column-sorter"
+                                />
+                              </div>
+                            </span>
+                          </th>
+                          <th
+                            className=""
+                          >
+                            <span
+                              className="ant-table-header-column"
+                            >
+                              <div>
+                                <span
+                                  className="ant-table-column-title"
+                                >
+                                  RESPONSIBLE
+                                </span>
+                                <span
+                                  className="ant-table-column-sorter"
+                                />
+                              </div>
+                            </span>
+                          </th>
+                          <th
+                            className=""
+                          >
+                            <span
+                              className="ant-table-header-column"
+                            >
+                              <div>
+                                <span
+                                  className="ant-table-column-title"
+                                >
+                                  SAVINGS AMOUNT
+                                </span>
+                                <span
+                                  className="ant-table-column-sorter"
+                                />
+                              </div>
+                            </span>
+                          </th>
+                          <th
+                            className=""
+                          >
+                            <span
+                              className="ant-table-header-column"
+                            >
+                              <div>
+                                <span
+                                  className="ant-table-column-title"
+                                >
+                                  CURRENCY
+                                </span>
+                                <span
+                                  className="ant-table-column-sorter"
+                                />
+                              </div>
+                            </span>
+                          </th>
+                          <th
+                            className=""
+                          >
+                            <span
+                              className="ant-table-header-column"
+                            >
+                              <div>
+                                <span
+                                  className="ant-table-column-title"
+                                >
+                                  COMPLEXITY
+                                </span>
+                                <span
+                                  className="ant-table-column-sorter"
+                                />
+                              </div>
+                            </span>
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody
+                        className="ant-table-tbody"
+                      >
+                        <tr
+                          className="ant-table-row ant-table-row-level-0"
+                          data-row-key={1}
+                          onClick={[Function]}
+                          onContextMenu={[Function]}
+                          onDoubleClick={[Function]}
+                          onMouseEnter={[Function]}
+                          onMouseLeave={[Function]}
+                          style={
+                            Object {
+                              "height": null,
+                            }
+                          }
+                        >
+                          <td
+                            className="ant-table-column-has-actions ant-table-column-has-sorters"
+                            onClick={[Function]}
+                          >
+                            <span
+                              className="ant-table-row-indent indent-level-0"
+                              style={
+                                Object {
+                                  "paddingLeft": "0px",
+                                }
+                              }
+                            />
+                            2
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            Substitute Crème fraîche with evaporated milk in ice-cream products
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            27.12.2013
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            Office supplies
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            Clark Kent
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            3722.42
+                          </td>
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          />
+                          <td
+                            className=""
+                            onClick={[Function]}
+                          >
+                            Moderate
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

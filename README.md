@@ -1,9 +1,6 @@
-Sievo Programming assignment
+Sievo
 ======================
 
-Dear Developer Candidate!
-
-The assignment instructions: 
 Write a web application with React that fetches savings project data from https://sievo-react-assignment.azurewebsites.net/api/data
 and displays that data on web page (grid).
 
@@ -28,6 +25,3 @@ the application and unit tests.
 
 If you are unable to finish the whole assignment then write down the problems you
 ran into so that we can discuss about them.
-
-Deliver the source code as an encrypted zip file (if not encrypted the e-mail might not
-get through). Use password "Sievo". You can also use e.g. Google Drive to deliver the file.
